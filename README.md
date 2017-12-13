@@ -13,4 +13,3 @@ For using
 ```bash
 $> docker run -e APPIX_AUTH=$(cat ./auth.json | base64) -it travix/appix
 ```
-
