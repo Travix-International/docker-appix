@@ -1,7 +1,7 @@
 FROM alpine:3.13
 
 ENV USER="appix" \
-  APPIX_VERSION="1.1.24"
+  APPIX_VERSION="1.1.25"
 
 RUN apk --no-cache add curl jq busybox-suid \
   && adduser -h /home/$USER -s /bin/sh -D -S $USER
